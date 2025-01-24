@@ -5,6 +5,7 @@
 ## 安装依赖
 
 npm install
+npm install vue-router
 
 ## 启动项目
 
