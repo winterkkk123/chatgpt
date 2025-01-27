@@ -19,18 +19,18 @@ npm run build
 
 index.html: 项目的入口文件。
 public:
-    favicon.ico: 浏览器的图标
+	favicon.ico: 浏览器的图标
 src:
-    App.vue: 项目的根组件
-    main.ts: 项目的入口文件
-    assets:
-        chatgptLogo.png: 聊天机器人logo
-    router:
-        index.ts: 路由配置文件
-    components:
-        NavigationBar.vue: 导航栏组件
-        Chat.vue: 聊天组件
-        NavigationBar:
+	App.vue: 项目的根组件
+	main.ts: 项目的入口文件
+	assets:
+    	chatgptLogo.png: 聊天机器人logo
+	router:
+    	index.ts: 路由配置文件
+	components:
+    	NavigationBar.vue: 导航栏组件
+    	Chat.vue: 聊天组件
+    	NavigationBar:
             TopBar.vue: 顶部导航栏组件
             SessionList.vue: 会话列表组件
             UserInfo.vue: 用户信息组件
