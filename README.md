@@ -26,7 +26,7 @@ src：
     assets：
         chatgptLogo.png: 聊天机器人logo
     router：
-        index.ts: 路由配置文件
+    	index.ts: 路由配置文件
     components：
         NavigationBar.vue: 导航栏组件
         Chat.vue: 聊天组件
