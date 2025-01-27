@@ -1,11 +1,5 @@
 <template>
   <div class="dialogBox">
-    <input 
-      type="text" 
-      v-model="userInput" 
-      placeholder="请输入信息"
-    />
-    <button>提交</button>
     <RouterView></RouterView>
   </div>
 
@@ -15,14 +9,13 @@
   import { RouterView } from 'vue-router';
   import { ref } from 'vue';
 
-  const userInput = ref('');
-
 </script> 
 
 <style scoped>
 .dialogBox {
   min-width: 768px;
-  height: 100%;
+  height: calc(100% - 60px);
+  /* height: 768px; */
   /* background-color: aqua; */
 }
 </style>
